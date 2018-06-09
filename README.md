@@ -1,4 +1,5 @@
 # RAK831_LoRaGateway
+
 Setting up RAK831 using in AS923 Thailand  
 
 1) Install Software in RPI3 lite version
@@ -31,11 +32,13 @@ Let check the box saying "I'm using the legacy packet forwarder" and we are here
 Hit that "Register Gateway" button !!!!!!
 
 5) Test 
+
 ![ScreenShot](https://github.com/worrajak/RAK831_LoRaGateway/blob/master/CSV049.jpg)
 
 ![ScreenShot](https://github.com/worrajak/RAK831_LoRaGateway/blob/master/CSV048.jpg)
 
 ![ScreenShot](https://github.com/worrajak/RAK831_LoRaGateway/blob/master/CSV047.jpg)
 
+![ScreenShot](https://github.com/worrajak/RAK831_LoRaGateway/blob/master/CSV050.jpg)
 
 
