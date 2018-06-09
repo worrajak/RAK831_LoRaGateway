@@ -3,7 +3,7 @@ Setting up RAK831 using in AS923 Thailand
 
 1) Install Software in RPI3 lite version
 
-![ScreenShot](https://cdn.instructables.com/FQT/00JT/J1GOYEID/FQT00JTJ1GOYEID.LARGE.jpg?auto=webp&crop=3:2)
+![ScreenShot](https://cdn.instructables.com/FQT/00JT/J1GOYEID/FQT00JTJ1GOYEID.LARGE.jpg?auto=webp&crop=3:2| width=100)
 
 https://www.raspberrypi.org/downloads/raspbian/
 
@@ -23,7 +23,7 @@ sudo raspi-config
 - Use the right arrow to select the <Finish> button.
 - Select yes when it asks to reboot.
   
-![ScreenShot](https://hackster.imgix.net/uploads/attachments/351868/image_JTajpthsyS.png?auto=compress%2Cformat&w=680&h=510&fit=max)
+![ScreenShot](https://hackster.imgix.net/uploads/attachments/351868/image_JTajpthsyS.png?auto=compress%2Cformat&w=680&h=510&fit=max | width=100)
 
 3) Install Git
 ```
