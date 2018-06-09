@@ -8,32 +8,27 @@ Setting up RAK831 using in AS923 Thailand
 https://www.raspberrypi.org/downloads/raspbian/
 
 
-2) Config RPI3 to use SPI
-Enable SPI:
-The SPI peripheral is not turned on by default. To enable it, do the following.
+2) Config RPI3 to use SPI and Install LoRaWan Gateway 
 
-Run 
-```
-sudo raspi-config
-```
-- Use the down arrow to select 9 Advanced Options
-- Arrow down to A6 SPI.
-- Select yes when it asks you to enable SPI,
-- Also select yes when it asks about automatically loading the kernel module.
-- Use the right arrow to select the <Finish> button.
-- Select yes when it asks to reboot.
-  
-![ScreenShot](https://hackster.imgix.net/uploads/attachments/351868/image_JTajpthsyS.png?auto=compress%2Cformat&w=680&h=510&fit=max)
+https://www.hackster.io/naresh-krish/getting-started-with-the-rak-831-lora-gateway-and-rpi3-e3351d
 
-3) Install Git
-```
-sudo apt-get update && sudo apt-get upgrade && sudo apt-get install git -y
-```
+if you choos NO you can fill data gateway name, description, Lat,Lon,Alt, Email 
 
-4) Install LoRa Gateway
-```
-git clone https://github.com/ttn-zh/ic880a-gateway.git ~/ic880a-gateway
-cd ic880a-gateway
-sudo ./install.sh spi
-```
+![ScreenShot](https://ttnstaticfile.blob.core.windows.net/media/django-summernote/2017-10-10/90b61a02-3f46-415d-bb73-9837dbd7f59b.png)
+
+3) Change global_conf.json in /opt/ttn-gateway/bin with example file
+
+https://github.com/TheThingsNetwork/gateway-conf/blob/master/AS2-global_conf.json
+
+and Register gateway to TTN 
+
+4) Register Gateway 
+Login to ttn account and we go to Console --> Gateways --> Register gateway
+Let check the box saying "I'm using the legacy packet forwarder" and we are here :
+
+![ScreenShot](https://ttnstaticfile.blob.core.windows.net/media/django-summernote/2017-10-10/29ae7b7e-2034-4269-b434-74ce886cc890.png)
+
+Hit that "Register Gateway" button !!!!!!
+
+
 
