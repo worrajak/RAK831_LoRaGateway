@@ -1,5 +1,12 @@
 # RAK831_LoRaGateway
 
+#There should be a start script at 
+
+/opt/ttn-gateway/bin/start.sh
+
+At the beginning of this script you will find some lines to generate a reset on pin 25. Change the pin number from “25” to “17”.
+
+
 Setting up RAK831 using in AS923 Thailand  
 
 1) Install Software in RPI3 lite version
