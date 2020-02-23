@@ -1,15 +1,3 @@
-# RAK831_LoRaGateway
-
-#There should be a start script at 
-
-```
-$ sudo nano /opt/ttn-gateway/bin/start.sh
-
-```
-
-At the beginning of this script you will find some lines to generate a reset on pin 25. Change the pin number from “25” to “17”.
-
-
 Setting up RAK831 using in AS923 Thailand  
 
 1) Install Software in RPI3 lite version
@@ -42,6 +30,18 @@ $ sudo ./install.sh spi
 $ cd /opt/ttn-gateway/bin
 $ sudo nano global_conf.json 
 ```
+
+# RAK831_LoRaGateway
+
+#There should be a start script at 
+
+```
+$ sudo nano /opt/ttn-gateway/bin/start.sh
+
+```
+
+At the beginning of this script you will find some lines to generate a reset on pin 25. Change the pin number from “25” to “17”.
+
 
 https://github.com/TheThingsNetwork/gateway-conf/blob/master/AS2-global_conf.json
 
