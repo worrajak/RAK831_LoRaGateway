@@ -35,6 +35,11 @@ $ sudo ./install.sh spi
 
 3) Change global_conf.json in /opt/ttn-gateway/bin with example file
 
+```
+$ cd /opt/ttn-gateway/bin
+$ sudo nano global_conf.json 
+```
+
 https://github.com/TheThingsNetwork/gateway-conf/blob/master/AS2-global_conf.json
 
 and Register gateway to TTN 
