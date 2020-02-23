@@ -2,7 +2,10 @@
 
 #There should be a start script at 
 
-/opt/ttn-gateway/bin/start.sh
+```
+$ sudo nano /opt/ttn-gateway/bin/start.sh
+
+```
 
 At the beginning of this script you will find some lines to generate a reset on pin 25. Change the pin number from “25” to “17”.
 
