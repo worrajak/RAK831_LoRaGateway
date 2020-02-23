@@ -24,6 +24,15 @@ if you choos NO you can fill data gateway name, description, Lat,Lon,Alt, Email
 
 ![ScreenShot](https://ttnstaticfile.blob.core.windows.net/media/django-summernote/2017-10-10/90b61a02-3f46-415d-bb73-9837dbd7f59b.png)
 
+  - Clone the installer and start the installation Choos NO  
+  
+```
+$ git clone -b spi https://github.com/ttn-zh/ic880a-gateway.git ~/ic880a-gateway
+$ cd ~/ic880a-gateway
+$ sudo ./install.sh spi
+
+```
+
 3) Change global_conf.json in /opt/ttn-gateway/bin with example file
 
 https://github.com/TheThingsNetwork/gateway-conf/blob/master/AS2-global_conf.json
